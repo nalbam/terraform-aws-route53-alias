@@ -3,7 +3,7 @@
 ## usage
 ```
 module "domain" {
-  source = "git::https://gitlab.com/nalbam/terraform-aws-route53-alias.git"
+  source = "git::https://github.com/nalbam/terraform-aws-route53-alias.git"
 
   zone_id = "${var.zone_id}"
   name = "${var.domain_name}"
