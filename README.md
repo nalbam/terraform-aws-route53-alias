@@ -1,6 +1,7 @@
 # terraform-aws-route53-alias
 
 ## usage
+
 ```
 module "domain" {
   source = "git::https://github.com/nalbam/terraform-aws-route53-alias.git"
